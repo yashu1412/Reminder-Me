@@ -25,7 +25,7 @@ const CreateReminder = () => {
     setStatus('Submitting...');
 
     try {
-      const res = await fetch(`${process.env.REACT_APP_BASE_URL}/CreateReminder`);
+      const res = await axios.post('https://reminder-me-25s1.onrender.com/api/v1/CreateReminder', formData);
       if (res.data.success) {
         setStatus('✅ Reminder created successfully!');
         setFormData({
