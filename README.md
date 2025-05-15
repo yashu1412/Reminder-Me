@@ -3,7 +3,7 @@ Here’s a complete `README.md` file for your **Reminder-Me** MERN stack project
 ---
 
 ```markdown
-# Remind-me-later live link:https://reminder-me-ten.vercel.app/
+# Reminder-Me live link:https://reminder-me-ten.vercel.app/
 
 A full-stack MERN application that allows users to schedule reminders by specifying a date, time, message, and delivery method (currently supports email). Built as part of a hiring screening process.
 
