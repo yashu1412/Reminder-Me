@@ -25,7 +25,7 @@ const CreateReminder = () => {
     setStatus('Submitting...');
 
     try {
-      const res = await axios.post('http://localhost:4000/api/v1/CreateReminder', formData);
+      const res = await fetch(`${process.env.REACT_APP_BASE_URL}/CreateReminder`);
       if (res.data.success) {
         setStatus('✅ Reminder created successfully!');
         setFormData({
