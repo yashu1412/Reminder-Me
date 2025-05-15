@@ -1,9 +1,9 @@
-Here’s a complete `README.md` file for your **Remind-me-later** MERN stack project. It explains what the project does, how to run it locally, and how to use the API.
+Here’s a complete `README.md` file for your **Reminder-Me** MERN stack project. It explains what the project does, how to run it locally, and how to use the API.
 
 ---
 
 ```markdown
-# Remind-me-later
+# Remind-me-later live link:https://reminder-me-ten.vercel.app/
 
 A full-stack MERN application that allows users to schedule reminders by specifying a date, time, message, and delivery method (currently supports email). Built as part of a hiring screening process.
 
@@ -53,7 +53,7 @@ Remind-me-later/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/remind-me-later.git
+git clone https://github.com/your-username/Reminder-Me.git
 cd remind-me-later
 ````
 
@@ -82,7 +82,7 @@ npm run dev
 ### 3. Setup Frontend
 
 ```bash
-cd ../frontend
+cd ./
 npm install
 ```
 
